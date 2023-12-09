@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_features_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

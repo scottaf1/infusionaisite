@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_sidebar_contact_infos",
+  "info": {
+    "singularName": "service-sidebar-contact-info",
+    "pluralName": "service-sidebar-contact-infos",
+    "displayName": "service-sidebar-contact-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactInfoList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-info.list"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Contact Info",
+      "required": true
+    }
+  }
+}

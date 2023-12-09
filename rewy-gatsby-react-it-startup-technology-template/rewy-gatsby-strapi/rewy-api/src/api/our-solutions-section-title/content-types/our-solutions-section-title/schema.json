@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_solutions_section_titles",
+  "info": {
+    "singularName": "our-solutions-section-title",
+    "pluralName": "our-solutions-section-titles",
+    "displayName": "our-solutions-section-title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Our Solutions"
+    },
+    "title": {
+      "type": "string",
+      "default": "We Different From Others Should Choose Us",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    }
+  }
+}

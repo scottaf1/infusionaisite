@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_history_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "goalList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.item"
+    }
+  }
+}

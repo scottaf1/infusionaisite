@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_twos",
+  "info": {
+    "singularName": "services-two",
+    "pluralName": "services-twos",
+    "displayName": "services-two",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "serviceImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "servicesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.item"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_features",
+  "info": {
+    "singularName": "our-feature",
+    "pluralName": "our-features",
+    "displayName": "our-feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Features",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We’re Here To Help",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-features.item",
+      "required": true
+    }
+  }
+}

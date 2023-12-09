@@ -1,0 +1,115 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Pricing",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "tableTitle": {
+      "type": "string",
+      "default": "List Of Features",
+      "required": true
+    },
+    "basicPlanTitle": {
+      "type": "string",
+      "default": "Basic Plan",
+      "required": true
+    },
+    "basicPlanPrice": {
+      "type": "string",
+      "default": "$15.00",
+      "required": true
+    },
+    "basicPlanDuration": {
+      "type": "string",
+      "default": "/Monthly",
+      "required": true
+    },
+    "advancedPlanTitle": {
+      "type": "string",
+      "default": "Advanced Plan",
+      "required": true
+    },
+    "advancedPlanPrice": {
+      "type": "string",
+      "default": "$35.00",
+      "required": true
+    },
+    "advancedPlanDuration": {
+      "type": "string",
+      "default": "/Monthly",
+      "required": true
+    },
+    "expertPlanTitle": {
+      "type": "string",
+      "default": "Expert Plan",
+      "required": true
+    },
+    "expertPlanPrice": {
+      "type": "string",
+      "default": "$65.00",
+      "required": true
+    },
+    "expertPlanDuration": {
+      "type": "string",
+      "required": true,
+      "default": "/Monthly"
+    },
+    "basicPlanBtnText": {
+      "type": "string",
+      "default": "Get it now",
+      "required": true
+    },
+    "basicPlanBtnLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "advancedPlanBtnText": {
+      "type": "string",
+      "required": true,
+      "default": "Get it now"
+    },
+    "advancedPlanBtnLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "expertPlanBtnText": {
+      "type": "string",
+      "default": "Get it now",
+      "required": true
+    },
+    "expertPlanBtnLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price-table.list"
+    },
+    "title": {
+      "type": "string",
+      "default": "Pricing Plans",
+      "required": true
+    }
+  }
+}

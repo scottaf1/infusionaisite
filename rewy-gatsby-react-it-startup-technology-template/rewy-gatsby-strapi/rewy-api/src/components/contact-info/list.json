@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_info_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "default": "bx bx-map",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

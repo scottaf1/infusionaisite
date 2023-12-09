@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Testimonials",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "What Our Clients are Saying?",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "required": true
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial.item"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Check Out All Reviews"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/testimonials"
+    }
+  }
+}

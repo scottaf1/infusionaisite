@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_faq_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "uuid": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

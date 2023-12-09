@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "team-member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Team Members",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Our Awesome Team",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "required": true
+    },
+    "teamMember": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-members.item"
+    }
+  }
+}

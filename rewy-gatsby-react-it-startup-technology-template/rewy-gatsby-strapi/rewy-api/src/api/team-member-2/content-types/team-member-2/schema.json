@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_member_2s",
+  "info": {
+    "singularName": "team-member-2",
+    "pluralName": "team-member-2s",
+    "displayName": "team-member-2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Team Members",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Our Data Scientist",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    "memberList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-members.item"
+    }
+  }
+}

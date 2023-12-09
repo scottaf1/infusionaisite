@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_price_table_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconOne": {
+      "type": "string",
+      "default": "bx bx-check",
+      "required": true
+    },
+    "iconTwo": {
+      "type": "string",
+      "default": "bx bx-check",
+      "required": true
+    },
+    "iconThree": {
+      "type": "string",
+      "default": "bx bx-check",
+      "required": true
+    }
+  }
+}

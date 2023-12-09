@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "about-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "About Us",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Drive Digital Revolution Through Data Science"
+    },
+    "shortDescription": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "required": true
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-features.list"
+    },
+    "aboutHistoryList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-history.list"
+    }
+  }
+}
